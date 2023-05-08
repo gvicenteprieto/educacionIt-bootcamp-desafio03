@@ -11,11 +11,6 @@ html {
     box-sizing: border-box;
 }
 
-/* header figure {
-    margin: 0;
-    padding: 0;
-} */
-
 /*** Header ***/
 .Header .nav {
     display: flex;
@@ -63,6 +58,48 @@ html {
     font-weight: 900;
 }
 
+/*** Aside ***/
+.Aside {
+    text-align: center;
+    border-top: 3px solid #ff8800;
+    margin-top: 2rem;
+}
+.Aside iframe {
+    border: 2px solid rgb(0, 0, 0);
+    padding: .25rem;
+}
+
+.Aside .form {
+    text-align: left;
+    padding: 1rem;
+    background-color: #ff8800;
+    border: 2px solid rgb(0, 0, 0);
+}
+.Aside .form label {
+    padding: .5rem;
+    font-weight: 900;
+}
+.Aside .form input {
+    width: 100%;
+    padding: .2rem;
+    margin: .2rem;
+    border: 2px solid rgb(0, 0, 0);
+}
+.Aside .form textarea {
+    width: 100%;
+    padding: .2rem;
+    margin: .2rem;
+    border: 2px solid rgb(0, 0, 0);
+}
+.Aside .form button {
+    width: 100%;
+    padding: .2rem;
+    margin: .2rem;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #e2d3c1;
+    color: #6b4f49f2;
+    font-weight: 900;
+}
 
 /*** Footer ***/
 .Footer h3 {
@@ -70,7 +107,7 @@ html {
     background-color: #6b4f49f2;
 }
 
-.Footer ul li strong {
+.Footer ul li a {
     color: #ff8800;
     font-weight: 900;
     text-decoration: underline;

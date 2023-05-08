@@ -20,20 +20,22 @@
         </picture>
         <nav class="nav">
             <li tabindex="1">
-                <a href="/index.html" target="_blank">Inicio</a>
+                <a href="/index.html" target="_self">
+                    Inicio
+                </a>
             </li> -
             <li tabindex="2">
-                <a href="./llegar.html" target="_blank">
+                <a href="./llegar.html" target="_self">
                     ¿Cómo llegar?
                 </a>
             </li> -
             <li tabindex="3">
-                <a href="./tarifas.html" target="_blank">
+                <a href="./tarifas.html" target="_self">
                     Tarifas
                 </a>
             </li> -
             <li tabindex="4">
-                <a href="./descuentos.html" target="_blank">
+                <a href="./descuentos.html" target="_self">
                     Descuentos
                 </a>
             </li>
@@ -58,24 +60,39 @@
                         <a href="https://wa.me/5491165423679" target="_blank">Whatsapp</a>
                     </li>
                 </ul>
-                <h3>Formulario de contacto</h3>
-
-                <form action="" method="POST">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required />
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Email" required />
-                    <label for="mensaje">Mensaje</label>
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje" required></textarea>
-                    <input type="submit" value="Enviar" />
-                </form>
             </article>
-
-
-
         </section>
     </main>
-
+    <aside class="Aside">
+        <h3>Deje su consulta</h3>
+        <form class="form" action="formularioContacto.php" method="post">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nombre">
+                    Nombre:
+                    <input type="text" name="nombre" value="" placeholder="Escriba su Nombre" required>
+                </label>
+                <label for="apellido">
+                    Apellido:
+                    <input type="text" name="apellido" value="" placeholder="Escriba su Apellido" required>
+                </label>
+                <label for="email">
+                    E-mail:
+                    <input type="email" multiple name="email" placeholder="email_1@dominio.com, email_2@dominio.com"
+                        required>
+                </label>
+                <label for="telefono">
+                    Teléfono:
+                    <input type="tel" name="telefono" value="" placeholder="Escriba su teléfono" required>
+                </label>
+                <label for="comentarios">
+                    Comentarios:
+                    <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+                </label>
+                <button type="submit">ENVIAR</button>
+            </fieldset>
+        </form>
+    </aside>
     <footer class="Footer">
         <h3>¿Por qué elegirnos?</h3>
         <ol>
@@ -86,7 +103,7 @@
                     <li>Almacén.</li>
                     <li>Duchas calientes.</li>
                     <li>Guardia de enfermería.</li>
-                    <li>Vigilancia brindada por 
+                    <li>Vigilancia brindada por
                         <strong>
                             <a href="https://www.prosegur.com.ar/">Prosegur</a>
                         </strong>.
