@@ -1,0 +1,77 @@
+@charset 'UTF-8';
+
+html {
+    font-family: 'Verdana', 'Arial', sans-serif;
+    font-size: 16px;
+    background-color: #e2d3c1;
+    color: #6b4f49f2;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* header figure {
+    margin: 0;
+    padding: 0;
+} */
+
+/*** Header ***/
+.Header .nav {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 1.5rem;
+}
+.Header .nav li {
+   margin:0;
+   padding: 0 .5rem;
+}
+.Header .nav li a {
+    color: #ff8800;
+    font-weight: 900;
+}
+
+/*** Main ***/
+.Main .section h1 {
+    color: #6b4f49f2;
+    font-size: 2rem;
+} 
+
+.Main .section .article h3 {
+    color: #e2d3c1;
+    background-color: #6b4f49f2;
+}
+
+.Main .section .article nav ul li a {
+    color: #ff8800;
+    font-weight: 900;
+}
+
+.Main .section .article .medios li:first-child a {
+    color: #20c2c5;
+    font-weight: 900;
+}
+
+.Main .section .article .medios li:last-child a{
+    color: #f4432c;
+    font-weight: 900;
+}
+
+.Main .section .article ul li a {
+    color: #ff8800;
+    font-weight: 900;
+}
+
+
+/*** Footer ***/
+.Footer h3 {
+    color: #ff8800;
+    background-color: #6b4f49f2;
+}
+
+.Footer ul li strong {
+    color: #ff8800;
+    font-weight: 900;
+    text-decoration: underline;
+}
